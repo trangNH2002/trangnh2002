@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+  margin: 50px;
+}
+table,
+td {
+  border: solid;
+  padding: 10px;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+}

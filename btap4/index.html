@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách sinh viên</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Danh sách sinh viên</h1>
+    <form name="danhsachsinhvien">
+      <label for="id">Mã SV :</label>
+      <input type="text" name="masv" id="id" placeholder="Nhập mã"/><br />
+      <label for="name">Tên :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="ten" id="name" placeholder="Nhập tên"/><br />
+      <label for="id">Tuổi :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="tuoi" id="age" placeholder="Nhập tuổi" /><br />
+      <input type="button" value="Thêm SV" onclick="dssv()">
+    </form>
+    <table>
+      <tr>
+        <td><strong>Số thứ tự</strong></td>
+        <td><strong>Tên sinh viên</strong></td>
+        <td><strong>Tuổi</strong></td>
+        <td><strong>Thao tác</strong></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button>Xóa</button></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button>Xóa</button></td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
